@@ -18,7 +18,7 @@ const Home = () => {
       {/* Lado esquerdo - fundo roxo escuro, alinhado à esquerda */}
       <div className="flex flex-col justify-center p-8 bg-[#3D113A] text-white w-full md:w-1/2 h-full md:h-screen relative">
         <img
-          src="/logo.PNG"
+          src="/logo.png"
           alt="Logo"
           className="
           w-[138px] h-auto mt-0.5 ml-0 mb-0 
