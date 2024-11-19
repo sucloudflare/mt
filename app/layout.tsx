@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         
 
         {/* Aqui renderizamos o conteúdo específico de cada página */}
-        <main>{children}</main>
+        <main >{children}</main>
 
         <footer className="bg-[#3D113A] p-4 text-white text-center">
           <p>&copy; 2024 Mtrek. Todos os direitos reservados.</p>
