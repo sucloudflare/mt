@@ -1,9 +1,7 @@
 'use client'; // Marca o arquivo como cliente
 
 import React, { useEffect } from 'react';
-import { FaShoppingCart, FaSearch, FaRegHandshake, FaStore, FaPhoneAlt, FaBlog, FaWhatsapp } from 'react-icons/fa';
 
-const Home = () => {
   useEffect(() => {
     const heading = document.querySelector('.heading');
     if (heading) {
