@@ -1,7 +1,9 @@
 'use client'; // Marca o arquivo como cliente
 
 import React, { useEffect } from 'react';
+import { FaWhatsapp } from 'react-icons/fa'; // Mantive apenas o FaWhatsapp, que está sendo utilizado
 
+const Home = () => {
   useEffect(() => {
     const heading = document.querySelector('.heading');
     if (heading) {
@@ -28,7 +30,7 @@ import React, { useEffect } from 'react';
     },
     {
       text: 'Mercado Livre de Energia',
-      icon:  <img src="./mercado.svg" alt="Ícone" className="w-7 h-7" />,
+      icon: <img src="./mercado.svg" alt="Ícone" className="w-7 h-7" />,
       bgColor: 'bg-transparent',
       textColor: 'text-gray-800 border-gray-300 border',
       link: '/energia',
